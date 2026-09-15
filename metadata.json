@@ -1,0 +1,6 @@
+{
+  "name": "الهيئة العليا لأمن الدولة — بوابة العمليات السرية",
+  "description": "منصة القيادة والتحليل الاستخباراتي — بوابة عمليات سرية وتفاعلية سينمائية لمشهد مسرحي وسينمائي رفيع المستوى.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
