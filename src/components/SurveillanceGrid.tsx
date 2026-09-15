@@ -248,7 +248,7 @@ export function SurveillanceGrid({ zones, units, soundEnabled }: SurveillanceGri
     const moveInterval = setInterval(() => {
       setLocalUnits((prev) =>
         prev.map((u) => {
-          if (u.type === 'STATIONARY') return u;
+          if (u.speed === 0) return u;
           const rad = (u.heading * Math.PI) / 180;
           const deltaX = Math.cos(rad) * (u.speed * 0.012);
           const deltaY = Math.sin(rad) * (u.speed * 0.012);
